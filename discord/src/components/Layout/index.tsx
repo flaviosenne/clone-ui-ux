@@ -1,8 +1,11 @@
+import ServerList from '../SeverList'
 import { Grid } from './styles'
 
 const Layout: React.FunctionComponent = () => {
-    return(
-        <div></div>
+    return (
+        <Grid>
+            <ServerList />
+        </Grid>
     )
 }
 
