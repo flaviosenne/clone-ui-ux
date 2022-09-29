@@ -1,4 +1,5 @@
 import ChannelInfo from '../ChannelInfo'
+import ChannelList from '../ChannelList'
 import ServerName from '../ServerName'
 import ServerList from '../SeverList'
 import { Grid } from './styles'
@@ -8,7 +9,8 @@ const Layout: React.FunctionComponent = () => {
         <Grid>
             <ServerList />
             <ServerName />
-            <ChannelInfo/>
+            <ChannelInfo />
+            <ChannelList />
         </Grid>
     )
 }
