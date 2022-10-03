@@ -1,3 +1,5 @@
+import ProfilePage from '../ProfilePage'
+
 import {
     Container, Header, BackIcon, ProfileInfo,
     BottomMenu, HomeIcon, SearchIcon, BellIcon, EmailIcon
@@ -16,10 +18,10 @@ const Main: React.FC = () => {
                 </ProfileInfo>
             </Header>
 
-            {/* <ProfilePage /> */}
+            <ProfilePage />
 
             <BottomMenu>
-                <HomeIcon className="active"/>
+                <HomeIcon className="active" />
                 <SearchIcon />
                 <BellIcon />
                 <EmailIcon />
