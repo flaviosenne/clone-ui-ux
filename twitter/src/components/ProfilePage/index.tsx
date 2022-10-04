@@ -1,6 +1,7 @@
+import Feed from '../Feed'
 import {
     Container, Banner, Avatar, ProfileData,
-    LocationIcon, CakeIcon, Followage
+    LocationIcon, CakeIcon, Followage, EditButton
 } from './styles'
 
 const ProfilePage: React.FC = () => {
@@ -11,7 +12,7 @@ const ProfilePage: React.FC = () => {
             </Banner>
 
             <ProfileData>
-                {/* <EditButton outlined>Editar perfil</EditButton> */}
+                <EditButton outlined>Editar perfil</EditButton>
                 <h1>João FLávio</h1>
                 <h2>@flaviosenne</h2>
                 <p>Developer at <a href='https://github.com/flaviosenne/front-clones/twitter'>@flaviosenne</a></p>
@@ -35,6 +36,8 @@ const ProfilePage: React.FC = () => {
                     </span>
                 </Followage>
             </ProfileData>
+
+            <Feed />
         </Container>
 
     )
